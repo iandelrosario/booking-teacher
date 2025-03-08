@@ -1,0 +1,13 @@
+diff a/config/cors.php b/config/cors.php	(rejected hunks)
+@@ -25,9 +25,9 @@ return [
+ 
+     'allowed_headers' => ['*'],
+ 
+-    'exposed_headers' => false,
++    'exposed_headers' => [],
+ 
+-    'max_age' => false,
++    'max_age' => 0,
+ 
+     'supports_credentials' => false,
+ 
