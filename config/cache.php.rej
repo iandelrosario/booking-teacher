@@ -1,9 +1,0 @@
-diff a/config/cache.php b/config/cache.php	(rejected hunks)
-@@ -39,6 +39,7 @@ return [
- 
-         'array' => [
-             'driver' => 'array',
-+            'serialize' => false,
-         ],
- 
-         'database' => [
