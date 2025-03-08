@@ -1,0 +1,158 @@
+body {
+    background: #eff3f9;
+    font-family: "Muli", sans-serif;
+}
+
+[contenteditable]:empty:before {
+    content: attr(data-placeholder);
+    color: #888;
+}
+
+select {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.hartpiece {
+    color: rgb(0, 158, 255) !important;
+}
+
+.hartpiece-art {
+    color: rgb(255, 137, 59) !important;
+}
+
+.hartpiece-logo-hover:hover {
+    cursor: pointer;
+}
+
+.hartpiece-logo {
+    width: 65px;
+    height: 50px;
+    background-image: url("../assets/images/logo.png");
+    background-repeat: no-repeat;
+    background-size: 58px;
+    background-position: center;
+    margin-bottom: -15px;
+    margin-right: 10px;
+}
+
+.hartpiece-logo-login {
+    width: 80px;
+    height: 70px;
+    background-image: url("../assets/images/logo.png");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+    margin-bottom: -20px;
+    margin-right: 10px;
+}
+
+.hartpiece-logo-mobile {
+    width: 60px;
+    height: 50px;
+    background-image: url("../assets/images/logo.png");
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: center;
+    margin: 0px;
+}
+
+#hartpiece-profile-image:hover {
+    cursor: pointer;
+}
+
+.hartpiece-forms {
+    height: 50px;
+    padding: 0.3rem 1.2rem !important;
+}
+
+select.hartpiece-forms {
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+        linear-gradient(135deg, gray 50%, transparent 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position: calc(100% - 20px) calc(1em + 7px),
+        calc(100% - 15px) calc(1em + 7px), calc(100% - 2.5em) 0.8em;
+    background-size: 5px 5px, 5px 5px, 1px 0;
+    background-repeat: no-repeat;
+}
+
+.hartpiece-rounded-corner {
+    border-radius: 1rem;
+    border-color: #eff3f9;
+}
+
+.hartpiece-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-color: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.hartpiece-img-sm {
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-color: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.hartpiece-img-lg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-color: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.hartpiece-font-poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.hartpiece-font-muli {
+    font-family: "Muli", sans-serif;
+}
+
+.hartpiece-btn {
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 158, 255) !important;
+    border-color: rgb(0, 158, 255) !important;
+}
+
+.hartpiece-btn:hover {
+    color: #fff !important;
+    background-color: rgb(0, 158, 255) !important;
+    border-color: rgb(0, 158, 255) !important;
+}
+
+.hartpiece-btn-reverse {
+    font-family: "Poppins", sans-serif;
+    color: #fff !important;
+    background-color: rgb(0, 158, 255) !important;
+    border-color: rgb(0, 158, 255) !important;
+}
+
+.hartpiece-btn-reverse:hover {
+    background-color: rgb(0, 130, 255) !important;
+}
+
+.hartpiece-active {
+    background-color: rgb(0, 158, 255) !important;
+    border-color: rgb(0, 158, 255) !important;
+    color: #fff !important;
+}
+
+.hartpiece-color-border {
+    border-color: rgb(0, 158, 255) !important;
+}
+
+.hartpiece-color {
+    color: rgb(0, 158, 255) !important;
+}
+
+.hartpiece-bg {
+    background-color: rgb(0, 158, 255) !important;
+}

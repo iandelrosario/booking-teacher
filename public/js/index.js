@@ -1,0 +1,1 @@
+var limit=parseInt($("#limit").val());$(window).scroll(function(){window.innerHeight+window.pageYOffset>=document.body.offsetHeight&&($.ajax({url:"/paginate/index",type:"POST",data:{l:limit},success:function(i){$("#feedPost").append(i)}}),limit+=limit)});

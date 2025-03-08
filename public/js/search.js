@@ -1,0 +1,1 @@
+$(function(){var e=parseInt($("#limit").val()),a=$("#type").val(),t=$("#search").val(),n=e;$(window).scroll(function(){window.innerHeight+window.pageYOffset>=document.body.offsetHeight&&($.ajax({url:"/paginate/search/"+a,type:"POST",data:{l:n,q:t},success:function(e){"people"==a?$("#feedUser").append(e):"post"!=a&&"tags"!=a||$("#feedPost").append(e)}}),n+=e)})});

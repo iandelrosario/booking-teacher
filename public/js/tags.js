@@ -1,0 +1,1 @@
+var limit=parseInt($("#limit").val()),t=$("#tags").val();$(window).scroll(function(){window.innerHeight+window.pageYOffset>=document.body.offsetHeight&&($.ajax({url:"/paginate/tags",type:"POST",data:{l:limit,t:t},success:function(t){$("#feedPost").append(t)}}),limit+=limit)});

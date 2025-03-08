@@ -1,0 +1,3 @@
+@foreach($result as $key => $val)
+@include('template.user',['type'=>'userFollower', 'user_id' => $val->user_id, 'follower' => $val->user->follower,'paypal_email_address' => $val->user->paypal_email_address,'username' => $val->user->username, 'fullname' => $val->user->fullname, 'profile' => $val->user->profile, 'count_post' => $val->user->count_post, 'count_followers' => $val->user->count_followers, 'count_following' => $val->user->count_following])
+@endforeach

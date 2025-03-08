@@ -1,0 +1,1 @@
+$(function(){var e=parseInt($("#limit").val()),n=$("#un").val(),t=e;$(window).scroll(function(){window.innerHeight+window.pageYOffset>=document.body.offsetHeight&&($.ajax({url:"/paginate/followers",type:"POST",data:{l:t,u:n},success:function(e){$("#feedUser").append(e)}}),t+=e)})});
